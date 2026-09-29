@@ -6,10 +6,18 @@ Static marketing site for JvFunder, the investor platform for Z-Co. Development 
 1. Replace pipeline/project copy with counsel-approved offering language.
 2. Connect Investor Login to the selected secure investor-management / white-label provider.
 3. Connect the interest forms to the CRM/email system.
-4. Add real project renderings/photos. The DoveTrails card, hero and project spotlight currently use gradient placeholders; the retail, healthcare and navy sections use San Antonio skyline stand-in photos.
+4. Add real project renderings/photos. the NorthFry, MedPlex and Consumer Concepts cards fall back to gradients until their images are added; the dark review section uses a San Antonio skyline stand-in photo.
 5. Replace the `legal.html` placeholders with securities-counsel-approved Terms, Privacy and Risk disclosures.
 6. Add analytics/cookie consent as required.
 7. Do not accept securities subscriptions directly through this site unless the final regulatory/intermediary workflow permits it.
 
 ## Brand
 Navy `#071b2d`, gold `#cda448`, warm background `#f5f3ed`.
+
+## Project images
+Drop these into `assets/` (no code changes needed; a missing file just shows a gradient):
+- `dovetrails.jpg` — DoveTrails card and Project Spotlight
+- `northfry-retail.jpg` — NorthFry Retail card
+- `medplex.jpg` — MedPlex card
+- `consumer-concepts.jpg` — Consumer Concepts card
+Landscape, ~1600px wide, under ~500 KB each.
