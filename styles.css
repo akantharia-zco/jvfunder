@@ -83,7 +83,7 @@ header.scrolled{box-shadow:0 2px 16px rgba(7,27,45,.14)}
 .steps b{font:400 24px Georgia,serif;color:var(--gold);min-width:36px}
 .steps strong{display:block;font-size:15px}
 .steps small{color:var(--muted);font-size:13px}
-.section.navy{background:linear-gradient(rgba(7,27,45,.95),rgba(7,27,45,.95)),url(assets/san_antonio_skyline_aerial.jpg) center/cover;color:#fff}
+.section.navy{background:linear-gradient(rgba(7,27,45,.95),rgba(7,27,45,.95)),url(assets/houston-skyline.jpg) center/cover,#071b2d;color:#fff}
 .review{display:grid;grid-template-columns:1fr 1.2fr;gap:56px;align-items:center}
 .review p{color:#cdd7e2;margin:16px 0 28px}
 .protocol{display:grid;grid-template-columns:1fr 1fr;gap:12px}
