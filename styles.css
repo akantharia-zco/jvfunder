@@ -113,15 +113,15 @@ h2{font-size:clamp(28px,3vw,42px);font-weight:700;line-height:1.18;letter-spacin
 .step b{font-size:12px;font-weight:700;letter-spacing:.14em;color:var(--green)}
 .step h3{font-size:19px;font-weight:700;letter-spacing:-.02em;color:var(--navy);margin:16px 0 12px}
 .step p{color:var(--muted);font-size:12px;line-height:1.85}
-/* sharia */
-.sharia{background:var(--navy);background-image:linear-gradient(135deg,var(--navy) 0%,var(--navy-deep) 100%);color:#fff;display:grid;grid-template-columns:.8fr 1.2fr;gap:8%;align-items:center}
-.sharia h2{color:#fff}
+/* ethical funding */
+.ethical{background:var(--navy);background-image:linear-gradient(135deg,var(--navy) 0%,var(--navy-deep) 100%);color:#fff;display:grid;grid-template-columns:.8fr 1.2fr;gap:8%;align-items:center}
+.ethical h2{color:#fff}
 .seal{padding:48px 44px;border:1px solid #ffffff26;border-left:4px solid var(--green);background:#ffffff08;border-radius:2px;text-align:left}
 .seal span{display:block;font:700 38px/1.15 var(--font);letter-spacing:-.03em;color:#fff}
 .seal p{font-size:10px;font-weight:700;line-height:1.9;letter-spacing:.16em;color:var(--green-lt);margin-top:22px}
-.sharia h2{margin:20px 0}
-.sharia .copy{color:#c3d2e5;font-size:14px;line-height:1.9;max-width:580px}
-.sharia small{display:block;color:#9db2cd;margin-top:22px;font-size:11px;line-height:1.8}
+.ethical h2{margin:20px 0}
+.ethical .copy{color:#c3d2e5;font-size:14px;line-height:1.9;max-width:580px}
+.ethical small{display:block;color:#9db2cd;margin-top:22px;font-size:11px;line-height:1.8}
 /* faq */
 .faq-wrap{display:grid;grid-template-columns:1fr 1.3fr;gap:8%}
 details{border-bottom:1px solid var(--line);padding:0}
@@ -177,7 +177,7 @@ nav .btn{font-size:10px;padding:12px 14px;gap:10px}
 .projects{grid-template-columns:1fr}
 .card p{min-height:0}
 .visual{height:240px}
-.oversight,.sharia,.faq-wrap{grid-template-columns:1fr;gap:45px}
+.oversight,.ethical,.faq-wrap{grid-template-columns:1fr;gap:45px}
 .journey{grid-template-columns:1fr;gap:0;margin-top:30px}
 .step{display:grid;grid-template-columns:40px 1fr;padding:22px 0;gap:5px 10px;border-top:1px solid var(--line)}
 .step:first-child{border-top:3px solid var(--navy)}
