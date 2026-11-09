@@ -19,10 +19,10 @@ const text='JVFUNDER INVESTOR INQUIRY\n\n'+lines.map(l=>l[0]+': '+l[1]).join('\n
 if(INQUIRY_ENDPOINT){
  try{const r=await fetch(INQUIRY_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)});
   if(!r.ok)throw new Error(r.status);
-  status.textContent='Thank you. Your request has been received and a member of the team will follow up.';form.reset();return}
+  form.reset();location.href='thank-you.html';return}
  catch(err){status.textContent='Sorry, we could not send your request. Please email '+INQUIRY_EMAIL+'.';return}
 }
-location.href='mailto:'+INQUIRY_EMAIL+'?subject='+encodeURIComponent('Investor packet request')+'&body='+encodeURIComponent(text);
-status.textContent='Your email app should open with your request ready to send. If it does not, please email '+INQUIRY_EMAIL+'.';
+const a=document.createElement('a');a.href='mailto:'+INQUIRY_EMAIL+'?subject='+encodeURIComponent('Investor packet request')+'&body='+encodeURIComponent(text);document.body.appendChild(a);a.click();a.remove();
+form.reset();setTimeout(()=>{location.href='thank-you.html'},700);
 });});
 })();

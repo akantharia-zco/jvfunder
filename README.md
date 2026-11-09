@@ -10,3 +10,9 @@ Project data (names, descriptions, images) lives in the `ventures` array at the 
 - No Terms/Privacy pages exist in this version; add them if counsel requires.
 - Add analytics/cookie consent as required.
 - Do not accept securities subscriptions through this static site unless the final regulatory/intermediary workflow permits it.
+
+## Editing opportunities
+Project details live in `tools/projects.json`. After editing, run `python3 tools/build_site.py` to regenerate each `project-*.html` page, the dashboard preview, the thank-you page and `projects.js` (used by the home page cards). Commit the generated files.
+
+## Lead capture
+The Request packet form (`inquiry.js`) currently opens the visitor's email app addressed to `INQUIRY_EMAIL`, then shows the thank-you page. When the CRM (GoHighLevel) is ready, set `INQUIRY_ENDPOINT` to its webhook or form URL and submissions will be posted as JSON instead.
