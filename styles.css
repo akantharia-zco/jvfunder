@@ -516,3 +516,8 @@ nav>.btn{margin-left:auto}
 @media(max-width:800px){.logo img{height:34px}}
 @media(max-width:480px){nav>.btn{display:none}.menu-cta{display:inline-flex!important}.menu-toggle{margin-left:auto}}
 nav>.btn{white-space:nowrap}
+/* Z-Co. logo sizing (vertical mark) */
+.rel-logo{background:none;border:0;padding:0;margin-bottom:24px}
+.rel-logo img{height:96px}
+.zco-tile{padding:6px 10px}
+.zco-tile img{height:72px}

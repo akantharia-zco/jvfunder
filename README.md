@@ -18,4 +18,4 @@ Project details live in `tools/projects.json`. After editing, run `python3 tools
 The Request packet form (`inquiry.js`) currently opens the visitor's email app addressed to `INQUIRY_EMAIL`, then shows the thank-you page. When the CRM (GoHighLevel) is ready, set `INQUIRY_ENDPOINT` to its webhook or form URL and submissions will be posted as JSON instead.
 
 ## Z-Co. logo
-Drop the Z-Co. logo at `assets/zco-logo.png`. It appears automatically in the "How it fits together" section and the footer Sponsor column (it is hidden until the file exists).
+The Z-Co. logo is at `assets/zco-logo.png`. It appears in the "How it fits together" section and the footer Sponsor column.
