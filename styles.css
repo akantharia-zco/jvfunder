@@ -523,6 +523,7 @@ nav>.btn{white-space:nowrap}
 .zco-tile img{height:72px}
 /* Z-Co. logo: bottom-right of its card so all three card headings line up */
 .rel-grid article{position:relative}
-.rel-logo{position:absolute;right:40px;bottom:44px;margin:0}
+.rel-logo{position:absolute;right:40px;top:40px;margin:0}
 .rel-logo img{height:84px}
 @media(max-width:800px){.rel-logo{position:static;order:9;margin:26px 0 0}.rel-logo img{height:72px}}
+@media(max-width:1330px) and (min-width:801px){.rel-logo{position:static;order:9;margin:26px 0 0}.rel-logo img{height:72px}}
